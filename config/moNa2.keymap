@@ -69,7 +69,7 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_1 {
+        keisan {
             bindings = <
 &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp PRINTSCREEN                              &mt F7 NUMBER_7  &mt F8 NUMBER_8  &mt F9 NUMBER_9  &kp BACKSPACE   &kp DELETE
 &trans      &trans     &trans      &trans       &trans           &trans    &kp PERIOD        &mt F4 NUMBER_4  &mt F5 NUMBER_5  &mt F6 NUMBER_6  &mt ASTRK STAR  &kp SLASH
