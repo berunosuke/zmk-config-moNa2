@@ -47,7 +47,7 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q                 &kp L         &kp U         &kp COMMA  &kp PERIOD                                                             &kp F          &kp W  &lt 2 R  &kp Y  &kp P
+&mt ESCAPE Q                 &kp L         &kp U         &kp COMMA  &kp PERIOD                                                             &kp F          &kp W  &lt 1 R  &kp Y  &kp P
 &kp E                        &kp I         &kp A         &kp O      &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &trans       &mt UNDER MINUS   &kp K          &kp T  &kp N    &kp S  &kp H
 &mt LEFT_SHIFT LANGUAGE_5    &kp X         &kp C         &kp V      &lt 2 SPACE                             &to 3        &mt PERIOD COLON  &kp G          &kp D  &kp M    &kp Z  &kp B
 &mt LEFT_CONTROL LANGUAGE_5  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 TAB  &mkp LCLK                               &mkp RCLK    &kp ENTER         &kp BACKSPACE                         &lt 4 J
@@ -58,23 +58,23 @@
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
-        keisan {
-            bindings = <
-&kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp PRINTSCREEN                              &mt F7 NUMBER_7  &mt F8 NUMBER_8  &mt F9 NUMBER_9  &kp BACKSPACE   &kp DELETE
-&trans      &trans     &trans      &trans       &trans           &trans    &kp PERIOD        &mt F4 NUMBER_4  &mt F5 NUMBER_5  &mt F6 NUMBER_6  &mt ASTRK STAR  &kp SLASH
-&trans      &trans     &trans      &trans       &kp F12          &to 3     &mt F10 NUMBER_0  &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &kp PLUS        &kp MINUS
-&trans      &trans     &trans      &trans       &trans           &trans    &trans            &trans                                                             &kp EQUAL
-            >;
-
-            sensor-bindings = <&scroll_up_down>;
-        };
-
         kigou {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7    &kp KP_NUMBER_8     &kp KP_NUMBER_9  &kp PLUS                                                            &kp CARET         &kp EXCLAMATION  &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH                   &kp KP_NUMBER_4    &kp KP_NUMBER_5     &kp KP_NUMBER_6  &kp ASTERISK             &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp BSLH          &kp AT_SIGN      &kp HASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET
 &mt LEFT_SHIFT KP_NUMBER_0  &mt F1 NUMBER_1    &kp KP_NUMBER_2     &kp KP_NUMBER_3  &kp PERIOD               &kp EQUAL                  &kp LESS_THAN   &kp GREATER_THAN  &kp PERCENT      &kp DOLLAR    &kp LEFT_BRACE        &kp RIGHT_BRACE
 &kp K_UNDO                  &mt K_PASTE K_CUT  &mt K_PASTE K_COPY  &to 0            &mt PRINTSCREEN K_PASTE  &trans                     &kp APOSTROPHE  &kp SEMICOLON                                                          &kp PIPE
+            >;
+
+            sensor-bindings = <&scroll_up_down>;
+        };
+
+        keisan {
+            bindings = <
+&kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp PRINTSCREEN                              &mt F7 NUMBER_7  &mt F8 NUMBER_8  &mt F9 NUMBER_9  &kp BACKSPACE   &kp DELETE
+&trans      &trans     &trans      &trans       &trans           &trans    &kp PERIOD        &mt F4 NUMBER_4  &mt F5 NUMBER_5  &mt F6 NUMBER_6  &mt ASTRK STAR  &kp SLASH
+&trans      &trans     &trans      &trans       &kp F12          &to 3     &mt F10 NUMBER_0  &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &kp PLUS        &kp MINUS
+&trans      &trans     &trans      &trans       &trans           &trans    &trans            &trans                                                             &kp EQUAL
             >;
 
             sensor-bindings = <&scroll_up_down>;
