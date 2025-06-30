@@ -47,10 +47,10 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q               &kp L         &kp U         &kp COMMA  &kp PERIOD                                                             &kp F          &kp W  &lt 0 R  &kp Y  &kp P
-&kp E                      &kp I         &kp A         &kp O      &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &trans       &mt UNDER MINUS   &kp K          &kp T  &kp N    &kp S  &kp H
-&mt LEFT_SHIFT LANGUAGE_5  &kp X         &kp C         &kp V      &lt 1 SPACE                             &to 2        &mt PERIOD COLON  &kp G          &kp D  &kp M    &kp Z  &kp B
-&kp LANG1                  &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 TAB  &mkp LCLK                               &mkp RCLK    &kp ENTER         &kp BACKSPACE                         &lt 3 J
+&mt ESCAPE Q                  &kp L         &kp U         &mt PERIOD COMMA  &mt COLON HASH                                       &kp F          &kp W  &lt 0 R  &kp Y  &kp P
+&kp E                         &kp I         &kp A         &kp O             &mt RPAR LPAR   &trans       &mt UNDER MINUS         &kp K          &kp T  &kp N    &kp S  &kp H
+&mt LEFT_SHIFT LANGUAGE_1     &kp X         &kp C         &kp V             &lt 1 SPACE     &to 2        &mt APOSTROPHE AT_SIGN  &kp G          &kp D  &kp M    &kp Z  &kp B
+&mt RIGHT_CONTROL LANGUAGE_2  &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 TAB         &mkp LCLK       &mkp RCLK    &kp ENTER               &kp BACKSPACE                         &lt 3 J
             >;
 
             sensor-bindings =
@@ -91,12 +91,12 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_5 {
+        reiwasaisin {
             bindings = <
-&kp NUMBER_1  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans  &trans  &trans  &trans  &to 0     &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0
+&kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &kp EQUAL     &trans    &trans  &trans        &trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans        &trans        &trans        &trans        &trans        &to 0     &trans  &trans        &trans        &trans        &kp EXCLAMATION   &kp QUESTION
+&trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans                                                      &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -113,10 +113,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
+&trans  &trans  &trans  &trans    &trans                        &trans  &trans    &trans    &trans    &mkp MB5
+&trans  &trans  &trans  &trans    &trans    &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB4
+&trans  &trans  &trans  &trans    &trans    &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2    &trans  &trans                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
