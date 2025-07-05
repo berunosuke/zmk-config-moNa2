@@ -47,10 +47,10 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q                    &kp L         &kp U         &mt PERIOD COMMA  &mt COLON HASH                                            &kp F          &kp W  &lt 0 R  &kp Y  &kp P
-&kp E                           &kp I         &kp A         &kp O             &mt RPAR LPAR        &trans       &mt UNDER MINUS         &kp K          &kp T  &kp N    &kp S  &kp H
-&mt LEFT_SHIFT INTERNATIONAL_8  &kp X         &kp C         &kp V             &lt 1 SPACE          &to 2        &mt APOSTROPHE AT_SIGN  &kp G          &kp D  &kp M    &kp Z  &kp B
-&mt RIGHT_CONTROL INT7          &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 TAB         &kp INTERNATIONAL_5  &kp LANG9    &kp ENTER               &kp BACKSPACE                         &lt 3 J
+&mt ESCAPE Q      &lt 4 L       &kp U         &mt PERIOD COMMA  &mt COLON HASH                                   &kp F          &kp W  &lt 0 R  &lt 4 Y  &lt 3 P
+&kp E             &kp I         &kp A         &kp O             &kt J           &trans      &mt UNDER MINUS      &kp K          &kp T  &kp N    &kp S    &kp H
+&mt LCTRL Z       &kp Z         &kp C         &kp V             &kp SPACE       &kp INT5    &mt APOSTROPHE INT4  &kp G          &kp D  &kp M    &kp Z    &kp B
+&mt LSHFT DELETE  &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 TAB         &mkp MB1        &mkp MB2    &kp ENTER            &kp BACKSPACE                           &mt RIGHT_CONTROL X
             >;
 
             sensor-bindings =
@@ -80,7 +80,7 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_4 {
+        bt {
             bindings = <
 &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans          &trans        &trans        &trans        &trans        &trans    &trans       &trans        &trans        &trans        &trans        &trans
@@ -91,12 +91,12 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        reiwasaisin {
+        num+yazi+kigou {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                      &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0
-&kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &kp EQUAL     &trans    &trans    &kp UP          &kp LPAR      &kp RPAR      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans        &trans        &trans        &trans        &trans        &to 0     &kp LEFT  &kp DOWN_ARROW  &kp RIGHT     &kp LEFT_GUI  &kp EXCLAMATION   &kp QUESTION
-&trans        &trans        &trans        &trans        &trans        &trans    &trans    &trans                                                        &trans
+&kp NUMBER_1          &mt F2 NUMBER_2        &kp NUMBER_3   &kp NUMBER_4      &kp NUMBER_5                                          &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0
+&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UP_ARROW   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans          &kp COLON          &kp N9        &kp NUMBER_4     &kp N5           &kp NUMBER_6  &mt ASTERISK PLUS
+&kp AT_SIGN           &kp LEFT               &kp DOWN       &kp RIGHT         &kp EXCLAMATION    &kp QUESTION    &kp LG(RIGHT_WIN)  &kp PERIOD    &mt F1 NUMBER_1  &mt F2 NUMBER_2  &kp NUMBER_3  &mt SLASH MINUS
+&kp LESS_THAN         &kp GREATER_THAN       &kp SEMICOLON  &trans            &trans             &trans          &trans             &trans                                                        &kp EQUAL
             >;
 
             sensor-bindings = <&scroll_up_down>;
