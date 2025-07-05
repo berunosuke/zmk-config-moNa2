@@ -93,10 +93,10 @@
 
         num+yazi+kigou {
             bindings = <
-&kp NUMBER_1          &mt F2 NUMBER_2        &kp NUMBER_3   &kp NUMBER_4      &kp NUMBER_5                                          &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0
-&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UP_ARROW   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans          &kp COLON          &kp N9        &kp NUMBER_4     &kp N5           &kp NUMBER_6  &mt ASTERISK PLUS
-&kp AT_SIGN           &kp LEFT               &kp DOWN       &kp RIGHT         &kp EXCLAMATION    &kp QUESTION    &kp LG(RIGHT_WIN)  &kp PERIOD    &mt F1 NUMBER_1  &mt F2 NUMBER_2  &kp NUMBER_3  &mt SLASH MINUS
-&kp LESS_THAN         &kp GREATER_THAN       &kp SEMICOLON  &trans            &trans             &trans          &trans             &trans                                                        &kp EQUAL
+&kp NUMBER_1   &mt F2 NUMBER_2   &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5                                        &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0
+&kp LPAR       &kp RPAR          &kp UP_ARROW   &kp LBKT      &kp RBKT         &trans          &kp RS(COLON)      &kp N9        &kp NUMBER_4     &kp N5           &kp NUMBER_6  &mt LS(ASTERISK) RS(PLUS)
+&kp AT         &kp LEFT          &kp DOWN       &kp RIGHT     &kp EXCLAMATION  &kp QUESTION    &kp LG(RIGHT_WIN)  &kp PERIOD    &mt F1 NUMBER_1  &mt F2 NUMBER_2  &kp NUMBER_3  &mt SLASH MINUS
+&kp LESS_THAN  &kp GREATER_THAN  &kp SEMICOLON  &trans        &trans           &trans          &trans             &trans                                                        &kp LS(EQUAL)
             >;
 
             sensor-bindings = <&scroll_up_down>;
