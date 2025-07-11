@@ -47,10 +47,10 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q      &lt 4 L       &kp U         &mt PERIOD COMMA  &mt COLON HASH                                   &kp F          &kp W  &lt 0 R  &lt 4 Y  &lt 3 P
-&kp E             &kp I         &kp A         &kp O             &kt J           &trans      &mt UNDER MINUS      &kp K          &kp T  &kp N    &kp S    &kp H
-&mt LCTRL Z       &kp Z         &kp C         &kp V             &kp SPACE       &kp INT5    &mt APOSTROPHE INT4  &kp G          &kp D  &kp M    &kp Z    &kp B
-&mt LSHFT DELETE  &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 TAB         &mkp MB1        &mkp MB2    &kp ENTER            &kp BACKSPACE                           &mt RIGHT_CONTROL X
+&mt ESCAPE Q      &lt 4 SPACE   &kp U         &kp L      &kp J                                      &kp F          &kp W  &lt 0 R  &lt 4 Y  &lt 3 P
+&kp E             &kp I         &kp A         &kp O      &kp UP    &trans      &mt UNDER MINUS      &kp K          &kp T  &kp N    &kp S    &kp H
+&mt LCTRL SLASH   &kp Z         &kp C         &kp V      &kp DOWN  &kp INT5    &mt APOSTROPHE INT4  &kp G          &kp D  &kp M    &kp Z    &kp B
+&mt LSHFT DELETE  &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 TAB  &mkp MB1  &mkp MB2    &kp ENTER            &kp BACKSPACE                           &mt RIGHT_CONTROL X
             >;
 
             sensor-bindings =
@@ -93,10 +93,10 @@
 
         num+yazi+kigou {
             bindings = <
-&kp NUMBER_1   &mt F2 NUMBER_2   &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5                                        &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0
-&kp LPAR       &kp RPAR          &kp UP_ARROW   &kp LBKT      &kp RBKT         &trans          &kp RS(COLON)      &kp N9        &kp NUMBER_4     &kp N5           &kp NUMBER_6  &mt LS(ASTERISK) RS(PLUS)
-&kp AT         &kp LEFT          &kp DOWN       &kp RIGHT     &kp EXCLAMATION  &kp QUESTION    &kp LG(RIGHT_WIN)  &kp PERIOD    &mt F1 NUMBER_1  &mt F2 NUMBER_2  &kp NUMBER_3  &mt SLASH MINUS
-&kp LESS_THAN  &kp GREATER_THAN  &kp SEMICOLON  &trans        &trans           &trans          &trans             &trans                                                        &kp LS(EQUAL)
+&kp NUMBER_1   &mt F2 NUMBER_2   &kp NUMBER_3   &kp NUMBER_4      &kp NUMBER_5                                          &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0
+&kp LS(N8)     &kp LS(N9)        &kp UP_ARROW   &kp LEFT_BRACKET  &kp RBKT          &trans           &kp RS(COLON)      &kp AT_SIGN   &kp NUMBER_4     &kp N5           &kp NUMBER_6  &mt LS(ASTERISK) RS(PLUS)
+&kp AT         &kp LEFT          &kp DOWN       &kp RIGHT         &kp LS(NUMBER_1)  &kp LS(SLASH)    &kp LG(RIGHT_WIN)  &kp PERIOD    &mt F1 NUMBER_1  &mt F2 NUMBER_2  &kp NUMBER_3  &mt SLASH MINUS
+&kp LESS_THAN  &kp GREATER_THAN  &kp SEMICOLON  &trans            &trans            &trans           &trans             &trans                                                        &kp LS(EQUAL)
             >;
 
             sensor-bindings = <&scroll_up_down>;
